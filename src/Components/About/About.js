@@ -2,8 +2,9 @@ import React from 'react'
 import './about.css'
 import ravi from '../../image/ravi.jpg'
 import Jyotirmayi from '../../image/j.png'
-import shreya from '../../image/shreya.png'
+// import shreya from '../../image/shreya.png'
 import Praham from '../../image/Pratham1.png'
+import Ali from "../../image/ali.jpeg"
 
 const About = () => {
   return (
@@ -56,8 +57,8 @@ const About = () => {
       </div>
 
       <div className="teamsAbout">
-        <img className='imgAbout' src={shreya} height="200px"></img>
-        <div className="nameAbout">Shreya Singh</div>
+        <img className='imgAbout' src={Ali} height="200px"></img>
+        <div className="nameAbout">Ali</div>
         <div className="desigAbout">Developer</div>
         <div className="aboutAbout"></div>
 
